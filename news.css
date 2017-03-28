@@ -1,0 +1,22 @@
+h2{
+
+	animation:build 1s 1;
+}
+p{
+	animation:build 1.25s 1;
+}
+.img{
+	height:200px;
+	width:400px;
+}
+img{
+	animation:buildImage 1.5s 1;
+}
+@keyframes build {
+	0%{opacity:0;transform: translateX(-60px)}
+	100%{opacity:1}
+}
+@keyframes buildImage {
+	0%{transform:translateY(90px)}
+	100%{}
+}
